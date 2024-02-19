@@ -14,8 +14,5 @@ int main(){
 	pthread_t thread;
 	pthread_create(&thread, NULL, saySomething, name);
 	pthread_join(thread, NULL);
-
-
-
 	return(0);
 }
