@@ -7,7 +7,7 @@
 #include <arpa/inet.h>
 
 #define MESSAGE_LENGHTH 1024
-#define PORT 8080
+#define PORT 8888
 //macro for socketaddr as SA 
 #define SA struct sockaddr
 
